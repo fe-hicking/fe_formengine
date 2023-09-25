@@ -10,4 +10,11 @@ For this example this is achieved by using a FormDataProvider that injects the J
 
 The JavaScript itself can then use vanilla javascript to listen to formengine fields.
 
+Another way would be to use:
+
+https://docs.typo3.org/m/typo3/reference-coreapi/12.4/en-us/ApiOverview/FormEngine/Rendering/Index.html
+
+and then define custom JavaScript that actually applies for a custom/own
+renderType. That has a higher impact and complexity, of course.
+
 Enjoy.
